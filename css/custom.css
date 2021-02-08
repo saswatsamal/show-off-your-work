@@ -2,7 +2,6 @@
 /*
 DePaul IHS
 */
-
 @font-face {
     font-family: 'GibsonSemiBold';
     src: url('/css/fonts/gibson-semibold-webfont.eot');
@@ -70,6 +69,10 @@ h2 {
   font: 22px/1em 'GibsonBold', serif;
   text-transform: uppercase;
   color: #827E7E;
+}
+
+a{
+font: 12px/1em sans-serif;
 }
 
 #logo {

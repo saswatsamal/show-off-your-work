@@ -12,6 +12,10 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+   
+    
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -21,6 +25,13 @@
   </head>
 
   <body>
+    <div class="topnav">
+      <a class="active" href="#">Work</a>
+      <a  href="https://soacoderoom.github.io/">Home</a>
+      <a href="https://soacoderoom.github.io/members.html">Members</a>
+      <a href="https://soacoderoom.github.io/events.html">Events</a>
+      
+    </div>
     <div class="container-fluid">
 
       <h2>SHOW OFF YOUR WORK</h2>
@@ -34,7 +45,7 @@
     <footer class='footer'>
       <div class='container-fluid'>
         <hr />
-        <h3><a href="https://soacoderoom.github.io/">Home</a></h3>  
+        <p>Forked from: <a href="https://github.com/derekeder/csv-to-html-table">Derek Eder</a></p>
       </div>
     </footer>
 
@@ -60,7 +71,7 @@
       CsvToHtmlTable.init({
         csv_path: 'data/work.csv',
         element: 'table-container', 
-        allow_download: true,
+        allow_download: false,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": false},
         custom_formatting: [[4, format_link]]
