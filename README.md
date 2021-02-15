@@ -14,10 +14,18 @@ All the work/projects have been maintained in this repository and is published [
 
 - Fork this repository to your account.
 
-- Create a branch of your name in your repository.
+- Create a branch of your user-name in your repository.
+    - For example: 
 
 - Go to `/data/work.csv`.
 
-- 
+- Add the details in the `.csv` file with `comma` separated
+
+  For example:  `1,Your name,Your registration no,Name of the work, https://xyz.com`
+  where the CSV file is formatted as follows
+  
+    Sl No. | Name | Registration Number | Work/Project | Reference Link
+    ------------ | ------------- | ------------- | ------------- | -------------
+
 
 (More to be added)
